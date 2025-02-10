@@ -18,7 +18,3 @@ async function getUserData(username) {
         throw error;
     }
 }
-
-module.exports = {
-    getUserData,
-};
