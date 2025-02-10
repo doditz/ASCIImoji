@@ -18,3 +18,13 @@ async function getUserData(username) {
         throw error;
     }
 }
+
+async function getRepoData(owner, repo) {
+    try {
+        const response = await githubApi.get(`/repos/${owner}/${repo}`);
+        return response.data;
+    } catch (error) {
+        console.error(`Error fetching repository data: ${error}`);
+        throw error;
+    }
+}
