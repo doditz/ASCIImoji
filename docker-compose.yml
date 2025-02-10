@@ -1,11 +1,20 @@
-
-version: '3.1'
+version: '3.8'
 
 services:
   web:
-    image: nginx:1.13-alpine
-    restart: always
+    image: nginx
     ports:
-      - 80:80
-    volumes:
-      - '.:/usr/share/nginx/html:ro'
+      - "80:80"
+  app:
+    image: node
+    ports:
+      - "3000:3000"
+  db:
+    image: mysql
+    environment:
+      MYSQL_DATABASE: 'exampledb'
+      MYSQL_USER: 'exampleuser'
+      MYSQL_PASSWORD: 'examplepass'
+      MYSQL_ROOT_PASSWORD: 'rootpass'
+    ports:
+      - "3306:3306"
