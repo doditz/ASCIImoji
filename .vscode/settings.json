@@ -1,3 +1,35 @@
 {
-    "terminal.explorerKind": "external"
+    "terminal.explorerKind": "external",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 16,
+    "typescript.suggest.completeFunctionCalls": true,
+    "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "typescript.inlayHints.variableTypes.enabled": true,
+    "typescript.inlayHints.parameterTypes.enabled": true,
+    "typescript.inlayHints.parameterNames.enabled": "all",
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "typescript.format.semicolons": "insert",
+    "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "typescript.format.insertSpaceAfterTypeAssertion": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.suggest.completeFunctionCalls": true,
+    "javascript.inlayHints.parameterTypes.enabled": true,
+    "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "python.terminal.shellIntegration.enabled": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.missingPackage.severity": "Information",
+    "python.globalModuleInstallation": false,
+    "python.createEnvironment.contentButton": "show",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.regenerateStdLibIndices": true,
+    "python.analysis.languageServerMode": "full",
+    "python.analysis.fixAll": [
+        
+    ]
 }
