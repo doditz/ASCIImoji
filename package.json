@@ -55,7 +55,7 @@
     "chalk": "^0.5.1",
     "clean-css": "^5.3.3",
     "colors": "^0.6.2",
-    "commander": "^2.2.0",
+    "commander": "^2.20.3",
     "compress-commons": "^0.1.6",
     "concat-stream": "^1.6.2",
     "core-util-is": "^1.0.2",
