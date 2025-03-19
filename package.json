@@ -108,7 +108,7 @@
     "rimraf": "^2.2.8",
     "safe-buffer": "^5.1.2",
     "sigmund": "^1.0.1",
-    "source-map": "^0.1.40",
+    "source-map": "^0.7.4",
     "string_decoder": "^0.10.31",
     "strip-ansi": "^0.3.0",
     "supports-color": "^0.2.0",
