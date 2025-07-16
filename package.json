@@ -105,7 +105,7 @@
     "process-nextick-args": "^2.0.1",
     "readable-stream": "^1.0.34",
     "requirefresh": "^1.1.2",
-    "rimraf": "^2.2.8",
+    "rimraf": "^4.3.1",
     "safe-buffer": "^5.1.2",
     "sigmund": "^1.0.1",
     "source-map": "^0.1.40",
